@@ -77,8 +77,8 @@ nnoremap <silent> <Space> @=(foldlevel('.')?'za':"\<Space>")<CR>
 vnoremap <Space> zf
 
 " Automatically save and load folds
-autocmd BufWinLeave *.* mkview
-autocmd BufWinEnter *.* silent loadview"
+" autocmd BufWinLeave *.* mkview
+" autocmd BufWinEnter *.* silent loadview"
 
 " Map the jk keys to ESC
 inoremap jk <ESC>
@@ -93,3 +93,15 @@ let g:netrw_liststyle = 3
 
 " Remove banner from netrw permanently
 let g:netrw_banner = 0
+
+" Stop netrw from writing to ~/.vim/.netrwhist 
+let g:netrw_dirhistmax=0
+
+" Add VS Code style dark theme
+
+" colorscheme codedark
+
+" Wildmenu tab navigation
+
+set wildmenu
+set wildmode=list:longest
