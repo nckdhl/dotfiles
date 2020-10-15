@@ -1,3 +1,6 @@
 [submodule ".vim/pack/colors/start/vim-code-dark"]
 	path = .vim/pack/colors/start/vim-code-dark
 	url = https://github.com/tomasiser/vim-code-dark.git
+[submodule ".vim/pack/plugins/vim-highlightedyank"]
+	path = .vim/pack/plugins/vim-highlightedyank
+	url = https://github.com/machakann/vim-highlightedyank.git
