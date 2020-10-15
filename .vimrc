@@ -99,7 +99,7 @@ let g:netrw_dirhistmax=0
 
 " Add VS Code style dark theme
 
-" colorscheme codedark
+colorscheme codedark
 
 " Wildmenu tab navigation
 
