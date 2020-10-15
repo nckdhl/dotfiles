@@ -4,3 +4,6 @@
 [submodule ".vim/pack/plugins/vim-highlightedyank"]
 	path = .vim/pack/plugins/vim-highlightedyank
 	url = https://github.com/machakann/vim-highlightedyank.git
+[submodule ".vim/pack/plugins/start/vim-airline"]
+	path = .vim/pack/plugins/start/vim-airline
+	url = https://github.com/vim-airline/vim-airline.git
